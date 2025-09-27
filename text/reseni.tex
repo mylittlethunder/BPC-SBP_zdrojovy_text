@@ -1,0 +1,40 @@
+\chapter{Teoretická část studentské práce}
+
+\section{Proč nedestruktivní testování}
+V technické praxi jsou struktury namáhány mnoha vnějšími vlivy, čímž se mění jejich materiálové vlastnosti. Například, u laminátových kontrukcí v leteckém průmyslu může vlivem vnějších sil pevnost v tlaku klesnout až o 80\%, i když se materiál jeví jako nepoškozený \cite{Benes_podklad_advances.}. 
+
+Pro posouzení stavu materiálu je proto nutné provádět pravidelné testování.
+Za účelem stanovení mezních vlastností materiálu jako pevnosti v tlaku, pevnosti v~tahu, lomové houževnatosti, atd., bývá prováděno \ac{DT}. Zahrnuje např. zkoušku tahem, tlakem, nebo ohybem. K těmto zkouškám jsou používány speciální stroje – kladiva, trhačky, ohýbačky, aj. Jak je z názvu přímo patrné, vlastní destruktivní zkoušení končí nevratným poškozením vzorku. 
+
+Pro již hotové konstrukce (např. svařované konstrukce v zámečnické výrobě, betonové pilíře v oblasti stavebnictví) nebo komponenty (hřídele, ozubená kola, kolejnice, atd.) se metody \ac{DT} zpravidla nepoužívají, jelikož by takové zkoušení bylo příliš nákladné. Nabízí se proto použití metod \ac{NDT}. Počátky \ac{NDT} sahají do 19. století, kdy pomocí tzv. akustického poklepového testování byly detekovány praskliny na železničních kolech \cite{ConcretetestingHELAL}.
+\section{Metody nedestruktivního testování}
+Velká výhoda metod \ac{NDT} spočívá v možnosti zkoušení v kterékoliv části životního cyklu produktu, u některých metod dokonce i v průběhu vykonávání vlastní činnosti výrobku. Díky tomu dostáváme přesné informace o poloze a závažnosti případného defektu ve struktuře materiálu. V současné době na trhu dominuje pět metod nedestruktivního testování – zkoušení magnetickými částicemi, radiografické zkoušení, ultrazvukové zkoušení, zkoušení vířivými proudy a zkoušení metodou akustické emise (dále \ac{AE}).
+
+Zkoušení magnetickými částicemi spočívá ve vystavení feromagnetických materiálů magnetickému poli. Díky vysoké permeabilitě feromagnetického materiálu se magnetické domény orientují ve~směru působení magnetického pole, tvoří tak souvislé čáry. V případě nespojitosti materiálu dojde k tzv. úniku magnetického pole – čáry v~bodě defektu nebudou spojité. Pro~snadnou viditelnost těchto nespojitostí je použit prášek oxidu železitého, který zmíněné čáry a nespojitosti kopíruje \cite{Gupta_ADVANCES_IN_MATERIALS_AND_PROCESSING_TECHNOLOGIES}. Mezi~limity spadá možnost použití jen pro feromagnetické materiály (železo, kobalt, nikl, ferity, gadolinium, aj.) \cite{Sandeep_Kumar_Dwivedi_NDT}.
+
+Radiografické zkoušení je postup založen na snímání obrázků s využitím radioaktivního zdroje záření. Záření je pohlcováno materiálem a dochází tak k útlumu. Defekty na těchto snímcích lze rozpoznat jako místa s menším útlumem záření \cite{Gupta_ADVANCES_IN_MATERIALS_AND_PROCESSING_TECHNOLOGIES}. Limity představuje nutnost radiační ochrany a nevhodnost použití pro porézní materiály (např. beton, dřevo, sádra, keramiky, kosti aj.) \cite{Sandeep_Kumar_Dwivedi_NDT}
+
+Při zkoušení ultrazvukem je používáno zvukových vln. Piezoelektrický snímač generuje pulzy, které se šíří materiálem. Cestují-li tyto pulzy nepoškozenou, spojitou strukturou, nemění se jejich parametry (především tedy rychlost). Při defektu dochází ke změně rychlosti pulzů.\cite{Gupta_ADVANCES_IN_MATERIALS_AND_PROCESSING_TECHNOLOGIES}. 
+
+Během zkoušení vířivými proudy je kovový materiál umístěn do fluktuujího magnetického pole, které je vytvářeno cívkou. V kovovém materiálu jsou indukovány proudy s vířivou povahou (proto vířivé proudy). Těmito vířivými proudy je vytvořeno sekundární magnetické pole, které ovlivňuje pole cívky. S defektem ve struktuře materiálu dojde tedy ke změně i vířivých proudů, což ovlivní i primární magnetické pole cívky \cite{Gupta_ADVANCES_IN_MATERIALS_AND_PROCESSING_TECHNOLOGIES}. 
+\section{Metoda AE. Její výhody, limity}
+V případě, že je jistý materiál deformován, uvolňuje se energie ve formě tzv. elastických vln. Tyto elastické vlny jsou vlny vysoké frekvence, které cestují směrem k~povrchu materiálu. Na povrchu tato data sbírají snímače AE. Souřadnice zdrojů AE jsou nejčastěji stanovovány pomocí známého triangulačního algoritmu (podle normy ČSN 14584) dle časových diferencí příchodů signálů k jednotlivým snímačům.
+
+Oproti ultrazvukovému testování je velkou výhodou zkoušení AE možnost nepřetržitého monitorování komponent – při ultrazvukovém zkoušení je potřeba externí zdroj zvuku o vysoké frekvenci. Metodou \ac{AE} se kromě toho nabízí testovat i nekovové nebo porézní materiály a najde tak uplatnění i v netechnických a medicínských oborech (např. diagnostika kostí a kloubů v ortopedii).
+
+Limit metody AE spočívá hlavně v interpretaci dat u komplikovanějších struktur~–~analytické vzorce pro lokalizace zdrojů AE jsou známé jen pro tenkou, izotropní desku (Chlada2009). Navíc, instalace senzorů na všech požadovaných místech je mnohdy nesnadná. Může tomu tak být z důvodu nepřístupnosti do určitých lokalit konstrukcí (např. některé koutové sváry). Umístění snímačů dokáže mimo nežádoucím způsobem ovlivnit dynamické vlastnosti konstrukce. %U složitějších struktur probíhá snaha uplatnit umělou neuronovou síť ke zpracování dat.
+\section{Postupy použití metody AE u složitějších struktur}%Kompenzace limitů metody AE} 
+Z pohledu systémové teorie můžeme testování materiálů metodou AE formulovat dvěma základními způsoby. Při~dopředné úloze je stanovována odezva dle známých vstupů (jistých vnějších sil). Nelze-li snadno získat hodnotu vstupu, je formulován problém zpětný – ze~změřené odezvy se dopočítávají hodnoty vstupů. Tento způsob řešení nazveme inverzním algoritmem.
+
+Ve vědeckých studiích bývají tyto inverzní algoritmy k~rekonstrukci působení vnějších sil hojně využívány. Podle implementace již zmíněné inverzní algoritmy jde rozdělit na~techniky založené na~modelech a~techniky založené na~strojovém/hlubokém učení.
+\subsection{Techniky založené na modelech}
+Při~testování materiálu je odezva (signál akustické emise) zpracovaná předem~vytvořeným modelem. Tento model dle~zpracované odezvy stanovuje vstupní hodnotu a~následně polohu nespojitosti materiálu. Výhoda této techniky spočívá v~nízké výpočetní náročnosti. V používání limituje nutnost tvorby přesného modelu pro přepočty – jak již~bylo výše uvedeno, pro~stanovení vad u~komplikovanějších anizotropních materiálů nejsou známé analytické vzorce, a~je proto velmi obtížné tvořit modely pro testování těchto materiálů. Proto probíhá snaha uplatnit při lokalizaci zdrojů \ac{AE} strojové učení.
+\subsection{Techniky založené na strojovém učení}
+
+
+
+
+
+
+
+
