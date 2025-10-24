@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,7 +875,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/student-titulka.pdf, id=108, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=116, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
 Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 140.
@@ -886,7 +886,7 @@ pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found 
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-titulka.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/student-titulka.pdf, id=110, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=118, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
 Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 140.
@@ -919,7 +919,7 @@ Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 140.
 ]
 
 pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/student-zadani.pdf, id=129, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=137, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
 Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 148.
@@ -930,7 +930,7 @@ pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex (file ./pdf/student-zadani.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/student-zadani.pdf, id=131, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=139, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
 Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 148.
@@ -1035,7 +1035,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] (sablona-prace.toc
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 28.
 )
 \tf@toc=\write4
 \openout4 = `sablona-prace.toc'.
@@ -1128,9 +1128,6 @@ Package acronym Warning: Acronym symfvz is not defined on input line 14.
 
 
 ]
-
-LaTeX Warning: Citation `Benes_podklad_advances.' on page 27 undefined on input line 4.
-
 Package acronym Info: Label `acro:DT' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 Package acronym Info: Label `acro:NDT' newly defined as it shall be overridden
@@ -1141,60 +1138,88 @@ although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:AE' newly defined as it shall be overridden
 although it is yet undefined on input line 23.
 
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
-
 
 [28]
-Overfull \hbox (99.1534pt too wide) in paragraph at lines 37--38
-\T1/lmr/m/n/12 funkci velký ob-jem tré-nin-ko-vých dat. Stu-die (na-p°í-klad https://iopscience.iop.org/article/10.1088/0964-
+
+[29]
+Overfull \hbox (4.75317pt too wide) in paragraph at lines 57--58
+\T1/lmr/m/n/12 zm¥-°e-nými vl-nami AE. Jak je z ná-zvu p°ímo pa-trné, umí tato data kla-si-fi-ko-vat ^^U kaºdé
  []
 
 
 
-[29])
-
 [30]
+<obrazky/visualclass_3cm.png, id=384, 614.295pt x 248.93pt>
+File: obrazky/visualclass_3cm.png Graphic file (type png)
+<use obrazky/visualclass_3cm.png>
+Package pdftex.def Info: obrazky/visualclass_3cm.png  used on input line 64.
+(pdftex.def)             Requested size: 298.75264pt x 121.06516pt.
+File: obrazky/visualclass_3cm.png Graphic file (type png)
+<use obrazky/visualclass_3cm.png>
+Package pdftex.def Info: obrazky/visualclass_3cm.png  used on input line 71.
+(pdftex.def)             Requested size: 298.75264pt x 121.06516pt.
+<obrazky/visualclass_11cm.png, id=388, 617.30624pt x 262.9825pt>
+File: obrazky/visualclass_11cm.png Graphic file (type png)
+<use obrazky/visualclass_11cm.png>
+Package pdftex.def Info: obrazky/visualclass_11cm.png  used on input line 78.
+(pdftex.def)             Requested size: 298.75264pt x 127.2775pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<visual_class_spectral_analysis.png, id=392, 1217.54875pt x 860.21375pt>
+File: visual_class_spectral_analysis.png Graphic file (type png)
+<use visual_class_spectral_analysis.png>
+Package pdftex.def Info: visual_class_spectral_analysis.png  used on input line 85.
+(pdftex.def)             Requested size: 320.09352pt x 226.1442pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[31 <./obrazky/visualclass_3cm.png>])
+
+[32 <./obrazky/visualclass_11cm.png> <./visual_class_spectral_analysis.png>]
 \openout2 = `text/vysledky.aux'.
 
  (text/vysledky.tex
 
-LaTeX Warning: Citation `sr72/2017' on page 31 undefined on input line 6.
+LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 6.
 
 
-LaTeX Warning: Citation `sr72/2017' on page 31 undefined on input line 12.
+LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 12.
 
 
-LaTeX Warning: Citation `pravidla' on page 31 undefined on input line 12.
+LaTeX Warning: Citation `pravidla' on page 33 undefined on input line 12.
 
 
 
-[31
+[33
 
 
 
 
 ]
 
-LaTeX Warning: Citation `Walter1999' on page 32 undefined on input line 19.
+LaTeX Warning: Citation `Walter1999' on page 34 undefined on input line 19.
 
 
-LaTeX Warning: Citation `Svacina1999IEEE' on page 32 undefined on input line 19.
+LaTeX Warning: Citation `Svacina1999IEEE' on page 34 undefined on input line 19.
 
 
-LaTeX Warning: Citation `RajmicSysel2002' on page 32 undefined on input line 19.
+LaTeX Warning: Citation `RajmicSysel2002' on page 34 undefined on input line 19.
 
 
-LaTeX Warning: Citation `CSN_ISO_690-2022' on page 32 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_690-2022' on page 34 undefined on input line 22.
 
 
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 32 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 34 undefined on input line 22.
 
 
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 32 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 34 undefined on input line 22.
 
 
-LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 32 undefined on input line 23.
+LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 34 undefined on input line 23.
 
 
 Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
@@ -1203,24 +1228,12 @@ Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
 
 
 
-[32])
+[34])
 
-[33]
+[35]
 \openout2 = `text/zaver.aux'.
 
  (text/zaver.tex
-
-[34
-
-
-
-
-])
-
-[35]
-\openout2 = `text/literatura.aux'.
-
- (text/literatura.tex
 
 [36
 
@@ -1230,22 +1243,44 @@ Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
 ])
 
 [37]
-\openout2 = `text/zkratky.aux'.
+\openout2 = `text/literatura.aux'.
 
- (text/zkratky.tex
+ (text/literatura.tex
 
 [38
 
 
 
 
+]
+Underfull \hbox (badness 1033) in paragraph at lines 20--23
+[]\T1/lmr/m/n/12 MRIDUL G., MU-H-SIN, A. K., RAVI B. et al. Advan-ces in ap-pli-cati-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 28--29
+\T1/lmr/m/n/12 im-pact force for smart com-posite sti-f-fe-ned pa-nels [on-line]. Do-stupné z:
+ []
+
+)
+
+[39]
+\openout2 = `text/zkratky.aux'.
+
+ (text/zkratky.tex
+
+[40
+
+
+
+
 ])
 
-[39
+[41
 
 ]
 
-[40
+[42
 
 
 
@@ -1255,12 +1290,12 @@ Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
 
 
 
-[41]
+[43]
 \openout2 = `text/prilohy.aux'.
 
  (text/prilohy.tex
 
-[42
+[44
 
 
 ]
@@ -1270,21 +1305,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 9.
 
 
-[43{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+[45{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[44
+[46
 
 ]
-<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=430, 556.0775pt x 434.62375pt>
+<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=488, 556.0775pt x 434.62375pt>
 File: obrazky/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 <use obrazky/ZlepseneWilsonovoZrcadloNPN.png>
 Package pdftex.def Info: obrazky/ZlepseneWilsonovoZrcadloNPN.png  used on input line 61.
 (pdftex.def)             Requested size: 278.03807pt x 217.31134pt.
 
 
-[45 <./obrazky/ZlepseneWilsonovoZrcadloNPN.png>]
+[47 <./obrazky/ZlepseneWilsonovoZrcadloNPN.png>]
 
-[46
+[48
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
@@ -1316,7 +1351,7 @@ Package acronym Warning: Acronym symfvz is not defined on input line 101.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 104.
 (text/zkratky.tex) (text/zkratky.tex)
 
-[47] (C:\Users\tomse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[49] (C:\Users\tomse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
@@ -1326,13 +1361,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[48
+[50
 
 ]
 
-[49]
+[51]
 
-[50
+[52
 
 ]
 Overfull \hbox (3.72125pt too wide) in paragraph at lines 209--211
@@ -1341,7 +1376,7 @@ Overfull \hbox (3.72125pt too wide) in paragraph at lines 209--211
 
 )
 
-[51]
+[53]
 \c@page@count=\count341
  (sablona-prace.aux (text/uvod.aux) (text/cile.aux) (text/reseni.aux) (text/vysledky.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux) (text/prilohy.aux))
  ***********
@@ -1353,21 +1388,21 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: C026F5E4B7EEFC848A4C079A4FC0A947;4982.
+(rerunfilecheck)             Checksum: 077539C5B50E1F0DA489E66D4D55B8F9;5671.
  )
 (\end occurred when \ifx on line 28 was incomplete) 
 Here is how much of TeX's memory you used:
- 19278 strings out of 468081
- 302913 string characters out of 5425788
- 950544 words of memory out of 5000000
- 47289 multiletter control sequences out of 15000+600000
+ 19322 strings out of 468081
+ 304027 string characters out of 5425788
+ 951382 words of memory out of 5000000
+ 47321 multiletter control sequences out of 15000+600000
  803956 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,1007b,2356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (51 pages, 1932411 bytes).
+Output written on sablona-prace.pdf (53 pages, 2042072 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
