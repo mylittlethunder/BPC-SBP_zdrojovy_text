@@ -4,3 +4,6 @@
 *.out
 *.aux
 *.zip
+*.toc
+*.toa
+*.gz
