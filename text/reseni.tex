@@ -84,7 +84,8 @@ Průběhy uvedené na obrázcích \ref{fig:visualclass_3cm}, \ref{fig:visualclas
 \end{figure}
 Pro takto změřené signály
  AE potom VisualClass dokáže zobrazovat 
- spektra krátkodobé frekvenční analýzy. 
+ spektra krátkodobé frekvenční analýzy 
+ (zobrazení spektrogramu). 
  Příklad frekvenční analýzy pro průběh uvedený na~obrázku \ref{fig:visualclass_3cm} je uveden na~obrázku \ref{fig:vallen_frekvencni_analyza}. 
 \begin{figure}[!h]
     \centering
@@ -95,7 +96,17 @@ Pro takto změřené signály
 Jak lze na obrázku 
 \ref{fig:vallen_frekvencni_analyza} vidět, 
 je signál rozdělen na~malé časové segmenty. 
-Každý z těchto časových segmentů je zobrazen pomocí Hammingova okna, abychom se vyhnuli ostrým hranám oken. Tyto hrany totiž zkreslují skutečné průběhy.
+Každý z těchto časových segmentů je zobrazen 
+pomocí Hammingova okna, abychom se 
+vyhnuli strmým hranám oken. 
+Tyto hrany totiž zkreslují skutečné průběhy.
+Následně se pro každý v horní části
+obrázku \ref{fig:vallen_frekvencni_analyza} 
+vyznačený časový segment
+pomocí algoritmu FFT stanoví jeho spektrum, 
+jak lze vidět ve spodní části obrázku 
+\ref{fig:vallen_frekvencni_analyza}.
+
 \subsection{Software od firmy Physical acoustic (MISTRAS)}
 
 \section{Případný vývoj}
