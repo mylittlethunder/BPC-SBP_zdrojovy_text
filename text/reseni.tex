@@ -54,7 +54,10 @@ Velkým výrobcem, který je kromě jiných metod zaměřen i na AE, je MISTRAS 
 %//
 % Nejnovější generace 32bitového software od společnosti Vallen Systeme pro Windows k analýze zdrojů \ac{AE} se nazývá VisualAE. Součástí tohoto softwaru je stejně tak VisualClass (systém pro tzv. rozpoznávání vzorů) a VisualTR (modul pro digitální filtraci signálu). Veškerá data jsou sbírána podprogramem Acquisition32, který má vysokou spolehlivost a je plně integrován do tohoto systému. Jak VisualClass, tak VisualAE, a stejně tak i VisualTR se tak mohou kdykoliv dostat k libovolnému datasetu.
 \subsection{Software od firmy Vallen}
-Program VisualClass od společnosti Vallen umí rozeznat podobnosti a rozdíly mezi změřenými vlnami AE. Jak je z názvu přímo patrné, umí tato data klasifikovat~–~každé vlně přidělí určité číslo třídy. V každé z těchto přidělených tříd klasifikuje podobnost se vzorovými daty. Funkcí, která představuje míru podobnosti mezi vlastní změřenou vlnou a vzorem, je poměr vzdáleností. Čím nižší je poměr vzdáleností, tím lépe odpovídá aktuální průběh přidělené třídě. Výsledky těchto klasifikátorů mohou být pro každý dílčí detekovaný zásah v programu VisualAE (program od společnosti Vallen pro analýzu dat AE. Zpracovává jak dvojrozměrná, tak trojrozměrná data, počítá hodnoty nejistot měření, atd.) spojeny s odpovídajícími parametry. Klasifikované výsledky lze tak i statisticky zpracovat.
+Program VisualClass od společnosti Vallen
+ umí rozeznat podobnosti a rozdíly 
+ mezi změřenými vlnami AE. Jak je z názvu přímo patrné, umí tato data klasifikovat~–~každé vlně přidělí určité číslo třídy. V každé z těchto přidělených tříd klasifikuje podobnost se vzorovými 
+daty. Funkcí, která představuje míru podobnosti mezi vlastní změřenou vlnou a vzorem, je poměr vzdáleností. Čím nižší je poměr vzdáleností, tím lépe odpovídá aktuální průběh přidělené třídě. Výsledky těchto klasifikátorů mohou být pro každý dílčí detekovaný zásah v programu VisualAE (program od společnosti Vallen pro analýzu dat AE. Zpracovává jak dvojrozměrná, tak trojrozměrná data, počítá hodnoty nejistot měření, atd.) spojeny s odpovídajícími parametry. Klasifikované výsledky lze tak i statisticky zpracovat.
 
 Výše zmíněný klasifikátor (čili kritérium, kterým jsou vlnové průběhy přidělovány do tříd) lze chápat jako výsledek procesu učení. V rámci procesu učení je brán určitý počet datových (učících) sad. Byla-li data vybrána uživatelem, hovoří se o \textbf{řízeném učení} (supervised learning). Pokud byly tyto sady vybrány automaticky nějakým výkonným algoritmem shlukování (tzv. clustering), jde potom o učení \textbf{neřízené} (unsupervised learning).
 
@@ -79,14 +82,20 @@ Průběhy uvedené na obrázcích \ref{fig:visualclass_3cm}, \ref{fig:visualclas
     \caption{Signál akustické emise pro vzdálenost senzoru od zdroje 11 cm \cite{vallen_visual_class}}
     \label{fig:visualclass_11cm}
 \end{figure}
-Pro takto změřené signály AE potom VisualClass dokáže zobrazovat spektra krátkodobé frekvenční analýzy. Příklad frekvenční analýzy pro průběh uvedený na obrázku \ref{fig:visualclass_3cm} je uveden na~obrázku \ref{fig:vallen_frekvencni_analyza}. 
+Pro takto změřené signály
+ AE potom VisualClass dokáže zobrazovat 
+ spektra krátkodobé frekvenční analýzy. 
+ Příklad frekvenční analýzy pro průběh uvedený na~obrázku \ref{fig:visualclass_3cm} je uveden na~obrázku \ref{fig:vallen_frekvencni_analyza}. 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.75\linewidth]{visual_class_spectral_analysis.png}
     \caption{Frekvenční analýza pro signál AE z obrázku \ref{fig:visualclass_3cm} \cite{vallen_visual_class}}
     \label{fig:vallen_frekvencni_analyza}
 \end{figure}
-Jak lze na obrázku \ref{fig:vallen_frekvencni_analyza} vidět, je signál rozdělen na malé časové segmenty. Každý z těchto časových segmentů je zobrazen pomocí Hammingova okna, abychom se vyhnuli ostrým hranám oken. Tyto hrany totiž zkreslují skutečné průběhy.
+Jak lze na obrázku 
+\ref{fig:vallen_frekvencni_analyza} vidět, 
+je signál rozdělen na~malé časové segmenty. 
+Každý z těchto časových segmentů je zobrazen pomocí Hammingova okna, abychom se vyhnuli ostrým hranám oken. Tyto hrany totiž zkreslují skutečné průběhy.
 \subsection{Software od firmy Physical acoustic (MISTRAS)}
 
 \section{Případný vývoj}
