@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1048,7 +1048,12 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 
 [16
 
-] (256421_semestralni_prace.lof)
+] (256421_semestralni_prace.lof
+Overfull \hbox (1.91808pt too wide) in paragraph at lines 9--9
+ [][] [][]\T1/lmr/m/n/12 Fisherovy po-m¥ry pro v²echny t°ídy (na-ho°e), pro vy-brané t°ídy (dole) 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `256421_semestralni_prace.lof'.
 
@@ -1149,7 +1154,7 @@ Overfull \hbox (4.75317pt too wide) in paragraph at lines 57--61
 
 
 [30]
-<obrazky/visualclass_3cm.png, id=384, 614.295pt x 248.93pt>
+<obrazky/visualclass_3cm.png, id=388, 614.295pt x 248.93pt>
 File: obrazky/visualclass_3cm.png Graphic file (type png)
 <use obrazky/visualclass_3cm.png>
 Package pdftex.def Info: obrazky/visualclass_3cm.png  used on input line 67.
@@ -1158,7 +1163,7 @@ File: obrazky/visualclass_3cm.png Graphic file (type png)
 <use obrazky/visualclass_3cm.png>
 Package pdftex.def Info: obrazky/visualclass_3cm.png  used on input line 74.
 (pdftex.def)             Requested size: 298.75264pt x 121.06516pt.
-<obrazky/visualclass_11cm.png, id=388, 617.30624pt x 262.9825pt>
+<obrazky/visualclass_11cm.png, id=392, 617.30624pt x 262.9825pt>
 File: obrazky/visualclass_11cm.png Graphic file (type png)
 <use obrazky/visualclass_11cm.png>
 Package pdftex.def Info: obrazky/visualclass_11cm.png  used on input line 81.
@@ -1167,7 +1172,7 @@ Package pdftex.def Info: obrazky/visualclass_11cm.png  used on input line 81.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<visual_class_spectral_analysis.png, id=392, 1217.54875pt x 860.21375pt>
+<visual_class_spectral_analysis.png, id=396, 1217.54875pt x 860.21375pt>
 File: visual_class_spectral_analysis.png Graphic file (type png)
 <use visual_class_spectral_analysis.png>
 Package pdftex.def Info: visual_class_spectral_analysis.png  used on input line 92.
@@ -1177,14 +1182,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[31 <./obrazky/visualclass_3cm.png>])
+[31 <./obrazky/visualclass_3cm.png>]
+<obrazky/visual_class_fisher_ratios.png, id=409, 414.79968pt x 587.19376pt>
+File: obrazky/visual_class_fisher_ratios.png Graphic file (type png)
+<use obrazky/visual_class_fisher_ratios.png>
+Package pdftex.def Info: obrazky/visual_class_fisher_ratios.png  used on input line 122.
+(pdftex.def)             Requested size: 320.09352pt x 453.14409pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [32 <./obrazky/visualclass_11cm.png> <./visual_class_spectral_analysis.png>]
 
-[33]
+[33 <./obrazky/visual_class_fisher_ratios.png>]
 \openout2 = `text/vysledky.aux'.
 
  (text/vysledky.tex
@@ -1317,7 +1332,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [48
 
 ]
-<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=498, 556.0775pt x 434.62375pt>
+<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=507, 556.0775pt x 434.62375pt>
 File: obrazky/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 <use obrazky/ZlepseneWilsonovoZrcadloNPN.png>
 Package pdftex.def Info: obrazky/ZlepseneWilsonovoZrcadloNPN.png  used on input line 61.
@@ -1395,21 +1410,21 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `256421_semestralni_prace.out' has not changed.
-(rerunfilecheck)             Checksum: 077539C5B50E1F0DA489E66D4D55B8F9;5671.
+(rerunfilecheck)             Checksum: 9A127A8F43758F0756559F11A5D67ABD;5671.
  )
 (\end occurred when \ifx on line 28 was incomplete) 
 Here is how much of TeX's memory you used:
- 19324 strings out of 468081
- 304536 string characters out of 5425788
- 951404 words of memory out of 5000000
- 47321 multiletter control sequences out of 15000+600000
+ 19333 strings out of 468081
+ 304889 string characters out of 5425788
+ 951651 words of memory out of 5000000
+ 47329 multiletter control sequences out of 15000+600000
  803956 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,1018b,2356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on 256421_semestralni_prace.pdf (55 pages, 2043967 bytes).
+Output written on 256421_semestralni_prace.pdf (55 pages, 2104070 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 184 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
