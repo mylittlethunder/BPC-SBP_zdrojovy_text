@@ -1,2 +1,6 @@
-
+*.lol
+*.log
+*.lof
+*.out
+*.aux
 *.zip
