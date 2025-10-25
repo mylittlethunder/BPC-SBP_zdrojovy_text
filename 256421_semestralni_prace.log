@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,48 +1178,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [31 <./obrazky/visualclass_3cm.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [32 <./obrazky/visualclass_11cm.png> <./visual_class_spectral_analysis.png>]
+
+[33]
 \openout2 = `text/vysledky.aux'.
 
  (text/vysledky.tex
 
-LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 6.
-
-
-LaTeX Warning: Citation `sr72/2017' on page 33 undefined on input line 12.
-
-
-LaTeX Warning: Citation `pravidla' on page 33 undefined on input line 12.
-
-
-
-[33
+[34
 
 
 
 
 ]
 
-LaTeX Warning: Citation `Walter1999' on page 34 undefined on input line 19.
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 6.
 
 
-LaTeX Warning: Citation `Svacina1999IEEE' on page 34 undefined on input line 19.
+LaTeX Warning: Citation `sr72/2017' on page 35 undefined on input line 12.
 
 
-LaTeX Warning: Citation `RajmicSysel2002' on page 34 undefined on input line 19.
+LaTeX Warning: Citation `pravidla' on page 35 undefined on input line 12.
 
 
-LaTeX Warning: Citation `CSN_ISO_690-2022' on page 34 undefined on input line 22.
+
+[35]
+
+LaTeX Warning: Citation `Walter1999' on page 36 undefined on input line 19.
 
 
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 34 undefined on input line 22.
+LaTeX Warning: Citation `Svacina1999IEEE' on page 36 undefined on input line 19.
 
 
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 34 undefined on input line 22.
+LaTeX Warning: Citation `RajmicSysel2002' on page 36 undefined on input line 19.
 
 
-LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 34 undefined on input line 23.
+LaTeX Warning: Citation `CSN_ISO_690-2022' on page 36 undefined on input line 22.
+
+
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 36 undefined on input line 22.
+
+
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 36 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Farkasova23:CSNISO6902022komentar' on page 36 undefined on input line 23.
 
 
 Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
@@ -1228,26 +1235,26 @@ Overfull \hbox (1.02756pt too wide) in paragraph at lines 21--24
 
 
 
-[34])
+[36])
 
-[35]
+[37]
 \openout2 = `text/zaver.aux'.
 
  (text/zaver.tex
 
-[36
+[38
 
 
 
 
 ])
 
-[37]
+[39]
 \openout2 = `text/literatura.aux'.
 
  (text/literatura.tex
 
-[38
+[40
 
 
 
@@ -1264,23 +1271,23 @@ Underfull \hbox (badness 1184) in paragraph at lines 28--29
 
 )
 
-[39]
+[41]
 \openout2 = `text/zkratky.aux'.
 
  (text/zkratky.tex
 
-[40
+[42
 
 
 
 
 ])
 
-[41
+[43
 
 ]
 
-[42
+[44
 
 
 
@@ -1290,12 +1297,12 @@ Underfull \hbox (badness 1184) in paragraph at lines 28--29
 
 
 
-[43]
+[45]
 \openout2 = `text/prilohy.aux'.
 
  (text/prilohy.tex
 
-[44
+[46
 
 
 ]
@@ -1305,21 +1312,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 9.
 
 
-[45{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+[47{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[46
+[48
 
 ]
-<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=490, 556.0775pt x 434.62375pt>
+<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=498, 556.0775pt x 434.62375pt>
 File: obrazky/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 <use obrazky/ZlepseneWilsonovoZrcadloNPN.png>
 Package pdftex.def Info: obrazky/ZlepseneWilsonovoZrcadloNPN.png  used on input line 61.
 (pdftex.def)             Requested size: 278.03807pt x 217.31134pt.
 
 
-[47 <./obrazky/ZlepseneWilsonovoZrcadloNPN.png>]
+[49 <./obrazky/ZlepseneWilsonovoZrcadloNPN.png>]
 
-[48
+[50
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
@@ -1351,7 +1358,7 @@ Package acronym Warning: Acronym symfvz is not defined on input line 101.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 104.
 (text/zkratky.tex) (text/zkratky.tex)
 
-[49] (C:\Users\tomse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[51] (C:\Users\tomse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
@@ -1361,13 +1368,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[50
+[52
 
 ]
 
-[51]
+[53]
 
-[52
+[54
 
 ]
 Overfull \hbox (3.72125pt too wide) in paragraph at lines 209--211
@@ -1376,7 +1383,7 @@ Overfull \hbox (3.72125pt too wide) in paragraph at lines 209--211
 
 )
 
-[53]
+[55]
 \c@page@count=\count341
  (256421_semestralni_prace.aux (text/uvod.aux) (text/cile.aux) (text/reseni.aux) (text/vysledky.aux) (text/zaver.aux) (text/literatura.aux) (text/zkratky.aux) (text/prilohy.aux))
  ***********
@@ -1392,17 +1399,17 @@ Package rerunfilecheck Info: File `256421_semestralni_prace.out' has not changed
  )
 (\end occurred when \ifx on line 28 was incomplete) 
 Here is how much of TeX's memory you used:
- 19322 strings out of 468081
- 304522 string characters out of 5425788
+ 19324 strings out of 468081
+ 304536 string characters out of 5425788
  951404 words of memory out of 5000000
  47321 multiletter control sequences out of 15000+600000
  803956 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,1018b,2356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/tomse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on 256421_semestralni_prace.pdf (53 pages, 2042608 bytes).
+Output written on 256421_semestralni_prace.pdf (55 pages, 2043857 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
  299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
