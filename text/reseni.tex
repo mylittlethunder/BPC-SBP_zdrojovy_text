@@ -170,19 +170,25 @@ Z těchto příznaků (příklad extrahovaného příznaku uveden na~
 \ref{fig:noesis_extrahovany_priznak}) umí stanovit diskriminant, nebo také určit diskriminant celé třídy.
 K vizualizaci vztahů mezi jednotlivými příznaky a propojení podobných
 příznaků slouží dendrogram ukázaný na obrázku \ref{fig:noesis_priklad_dendrogram}.
-\begin{figure}[htbp]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=0.75\linewidth]{obrazky/noesis_dendrogram.png}
     \caption{Příklad dendrogramu v softwaru NOESIS \cite{Noesis}}
     \label{fig:noesis_priklad_dendrogram}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.65\linewidth]{obrazky/noesis_extrahovany_priznak_wfs.png}
     \caption{Příklad extrahovaného příznaku v softwaru NOESIS \cite{Noesis}}
     \label{fig:noesis_extrahovany_priznak}
 \end{figure}
+ Jak je z obrázků \ref{fig:noesis_priklad_dendrogram} a~
+ \ref{fig:noesis_extrahovany_priznak} patrné, NOESIS nabízí celou řadu
+ algoritmů pro automatickou klasifikaci dat. Dovede pomocí výkonného
+ algoritmu (tzv. clusteringu, jak bylo uvedeno již v sekci 1.5.2) 
+ vybírat data, jedná se o neřízené učení. Uživatel je v tomto případě nechán
+ nastavit omezený počet parametrů a získat podle těchto parametrů automatickou klasifikaci.
 
 \section{Případný vývoj}
 TODO: Dokončit, kam by se mohly ubírat přípravky pro~neuronové sítě.
