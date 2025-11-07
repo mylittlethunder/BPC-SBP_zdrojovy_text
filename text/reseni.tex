@@ -159,13 +159,21 @@ vidět na obrázku \ref{fig:noesis_priklad_okna}.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{obrazky/noesis_priklad_okna.png}
-    \caption{Příklad okna v software NOESIS}
+    \caption{Příklad okna v software NOESIS \cite{Noesis}}
     \label{fig:noesis_priklad_okna}
 \end{figure}
 Kromě pouhého zobrazování dat umí NOESIS vést i pokročilejší statistiky.
 Podobně jako VisualClass počítá příznaky (features) z jednotlivých průběhů.
-Z příznaků umí stanovit diskriminant, nebo také určí diskriminant celé třídy.
-
+Dovede počítat až 50 příznaků, např. amplitudu (dBae), dobu náběhu ($\mu s$), 
+energii signálu (aJ), a další uvedené v \cite{Noesis}. Z těchto příznaků umí stanovit diskriminant, nebo také určí diskriminant celé třídy.
+K vizualizaci vztahů mezi jednotlivými příznaky a propojení podobných
+příznaků slouží dendrogram ukázaný na obrázku \ref{fig:noesis_priklad_dendrogram}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\linewidth]{obrazky/noesis_dendrogram.png}
+    \caption{Příklad dendrogramu v software NOESIS \cite{Noesis}}
+    \label{fig:noesis_priklad_dendrogram}
+\end{figure}
 
 \section{Případný vývoj}
 TODO: Dokončit, kam by se mohly ubírat přípravky pro~neuronové sítě.
