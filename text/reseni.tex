@@ -69,9 +69,9 @@ Průběhy uvedené na obrázcích \ref{fig:visualclass_3cm}, \ref{fig:visualclas
     \label{fig:visualclass_3cm}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.7\linewidth]{obrazky/visualclass_3cm.png}
+    \includegraphics[width=0.7\linewidth]{obrazky/visualclass_6cm.png}
     \caption{Signál akustické emise pro vzdálenost senzoru od zdroje 6 cm \cite{vallen_visual_class}}
     \label{fig:visualclass_6cm}
 \end{figure}
@@ -87,7 +87,7 @@ Pro takto změřené signály
  spektra krátkodobé frekvenční analýzy 
  (zobrazení spektrogramu). 
  Příklad frekvenční analýzy pro průběh uvedený na~obrázku \ref{fig:visualclass_3cm} je uveden na~obrázku \ref{fig:vallen_frekvencni_analyza}. 
-\begin{figure}[!h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{visual_class_spectral_analysis.png}
     \caption{Frekvenční analýza pro signál AE z obrázku \ref{fig:visualclass_3cm} \cite{vallen_visual_class}}
@@ -125,8 +125,8 @@ představují klasifikátor, se kterým se právě pracuje.
 \end{figure}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.75\linewidth]{obrazky/visual_class_feature_feature.png}
-    \caption{Fisherovy poměry pro všechny třídy (nahoře), pro vybrané třídy (dole) \cite{vallen_visual_class}}
+    \includegraphics[width=0.65\linewidth]{obrazky/visual_class_feature_feature.png}
+    \caption{Zobrazení příznaků mezi sebou (tzv. feature-feature projekce) \cite{vallen_visual_class}}
     \label{fig:vallen_feature_feature}
 \end{figure}
 Působivou funkcí softwaru VisualClass pro srovnávání
@@ -159,21 +159,29 @@ vidět na obrázku \ref{fig:noesis_priklad_okna}.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{obrazky/noesis_priklad_okna.png}
-    \caption{Příklad okna v software NOESIS \cite{Noesis}}
+    \caption{Příklad okna v softwaru NOESIS \cite{Noesis}}
     \label{fig:noesis_priklad_okna}
 \end{figure}
 Kromě pouhého zobrazování dat umí NOESIS vést i pokročilejší statistiky.
 Podobně jako VisualClass počítá příznaky (features) z jednotlivých průběhů.
 Dovede počítat až 50 příznaků, např. amplitudu (dBae), dobu náběhu ($\mu s$), 
 energii signálu (aJ), a další uvedené v \cite{Noesis}. 
-Z těchto příznaků umí stanovit diskriminant, nebo také určit diskriminant celé třídy.
+Z těchto příznaků (příklad extrahovaného příznaku uveden na~
+\ref{fig:noesis_extrahovany_priznak}) umí stanovit diskriminant, nebo také určit diskriminant celé třídy.
 K vizualizaci vztahů mezi jednotlivými příznaky a propojení podobných
 příznaků slouží dendrogram ukázaný na obrázku \ref{fig:noesis_priklad_dendrogram}.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{obrazky/noesis_dendrogram.png}
-    \caption{Příklad dendrogramu v software NOESIS \cite{Noesis}}
+    \caption{Příklad dendrogramu v softwaru NOESIS \cite{Noesis}}
     \label{fig:noesis_priklad_dendrogram}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.65\linewidth]{obrazky/noesis_extrahovany_priznak_wfs.png}
+    \caption{Příklad extrahovaného příznaku v softwaru NOESIS \cite{Noesis}}
+    \label{fig:noesis_extrahovany_priznak}
 \end{figure}
 
 \section{Případný vývoj}
