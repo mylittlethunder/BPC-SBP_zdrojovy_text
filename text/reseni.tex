@@ -123,13 +123,13 @@ představují klasifikátor, se kterým se právě pracuje.
     \caption{Fisherovy poměry pro všechny třídy (nahoře), pro vybrané třídy (dole) \cite{vallen_visual_class}}
     \label{fig:vallen_fisherovy_vzorce}
 \end{figure}
-\begin{figure}[!h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{obrazky/visual_class_feature_feature.png}
     \caption{Fisherovy poměry pro všechny třídy (nahoře), pro vybrané třídy (dole) \cite{vallen_visual_class}}
     \label{fig:vallen_feature_feature}
 \end{figure}
-Působivou utilitou softwaru VisualClass pro srovnávání
+Působivou funkcí softwaru VisualClass pro srovnávání
 několika naměřených průběhů navzájem mezi sebou je 
 schopnost tzv. feature-feature projekce.
 Každý~změřený průběh AE patřící k jedné třídě 
@@ -139,13 +139,29 @@ tak mezi několika třídami. Zobrazení tzv. feature-feature demonstruje
 obrázek \ref{fig:vallen_feature_feature}
 
 \subsection{Software od firmy Physical acoustic (MISTRAS)}
-Software NOESIS klasifikuje data podobně, 
-jako VisualClass. Umožňuje také tvorbu celých stránek 
-s~nastavitelnými parametry – statistiky, 
-RMS, algoritmus FFT, atd. V současnosti nejsou k~dostání
-žádné informace s konkrétními výsledky práce se~softwarem
-NOESIS, z tohoto důvodu nebyla provedena tak detailní analýza, 
-jako v případě systému Vallen.
+% Software NOESIS klasifikuje data podobně, 
+% jako VisualClass. Umožňuje také tvorbu celých stránek 
+% s~nastavitelnými parametry – statistiky, 
+% RMS, algoritmus FFT, atd. V současnosti nejsou k~dostání
+% žádné informace s konkrétními výsledky práce se~softwarem
+% NOESIS, z tohoto důvodu nebyla provedena tak detailní analýza, 
+% jako v případě systému Vallen.
+Software NOESIS od společnosti Physical acoustic umožňuje 
+tzv.~pattern recognition a práci s neuronovými sítěmi podobně,
+jako VisualClass. Provádí korelaci vlastností (TODO: změnit větu) - 
+klasifikaci dat pro průzkum a datovou analýzu většího množství průběhů
+zároveň. Data pro třídu (nebo také cluster) mohou být vybrána uživatelem.
+Umí počítat operace a zákldní signálové manipulace, jako jsou FFT nebo~RMS,
+podobně jako VisualClass. Typický příklad rozložení v jednom okně lze
+vidět na obrázku \ref{fig:noesis_priklad_okna}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\linewidth]{obrazky/noesis_priklad_okna.png}
+    \caption{Příklad okna v software NOESIS}
+    \label{fig:noesis_priklad_okna}
+\end{figure}
+
 \section{Případný vývoj}
 TODO: Dokončit, kam by se mohly ubírat přípravky pro~neuronové sítě.
 \section{Experiment}
