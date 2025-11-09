@@ -25,7 +25,13 @@ Oproti ultrazvukovému testování je velkou výhodou zkoušení AE možnost nep
 Limit metody AE spočívá hlavně v interpretaci dat u komplikovanějších struktur~–~analytické vzorce pro lokalizace zdrojů AE jsou známé jen pro tenkou, izotropní desku \cite{Chlada2009}. Navíc, instalace senzorů na všech požadovaných místech je mnohdy nesnadná. Může tomu tak být z důvodu nepřístupnosti do určitých lokalit konstrukcí (např. některé koutové sváry). Umístění snímačů dokáže mimo to nežádoucím způsobem ovlivnit dynamické vlastnosti konstrukce. %U složitějších struktur probíhá snaha uplatnit umělou neuronovou síť ke zpracování dat.
 \section{Postupy použití metody AE u složitějších struktur}%Kompenzace limitů metody AE} 
 Testování materiálů 
-metodou AE můžeme formulovat dvěma základními způsoby; při~\textbf{dopředné úloze} je stanovována odezva dle známých vstupů (sil nárazů). Nelze-li snadno získat hodnotu vstupu, je formulován problém zpětný – ze~změřené odezvy se dopočítávají hodnoty vstupů. Tento způsob řešení nazveme \textbf{inverzním algoritmem}.
+metodou AE můžeme formulovat 
+dvěma základními způsoby; při~\textbf{dopředné úloze} je 
+stanovována odezva dle známých vstupů (sil nárazů). 
+Nelze-li snadno získat hodnotu vstupu, 
+je formulován problém zpětný – ze~změřené odezvy se 
+dopočítávají hodnoty vstupů. 
+Tento způsob řešení nazveme \textbf{inverzním algoritmem} \cite{Benes_podklad_advances}.
 
 Ve vědeckých studiích bývají tyto inverzní algoritmy k~rekonstrukci působení vnějších sil hojně využívány. Podle implementace již zmíněné inverzní algoritmy jde rozdělit na~techniky založené na~modelech a~techniky založené na~strojovém/hlubokém učení.
 \subsection{Techniky založené na modelech}
@@ -41,7 +47,8 @@ Navzdory obrovskému potenciálu nejsou umělé neuronové sítě v nelineární
 
 Navíc, pro výběr kvalitních příznaků do učící sady je nezbytná lidská expertíza. Tvorba učící sady je poměrně náročná a nelze ji nijak efektivně automatizovat. Při rekonstrukci zdroje deformace mimo jiné představuje problém již výše popsaný u technik založených na modelech – pro získání kvalitních dat je nutné rozmístit senzory v husté síti, a to zhoršuje dynamické parametry konstrukce.
 
-\section{Použití strojového učení k lokalizaci zdrojů AE v~komerční sféře}
+\section{Aplikace strojového učení při testování metodou 
+AE v~komerční sféře}
 AE se někdy označuje jako pasivní ultrazvuk, 
 protože ultrazvukové snímače oproti snímačům AE 
 potřebují pro správnou lokalizaci externí zdroj zvuku o vyšší frekvenci než~20~kHz. 
@@ -50,13 +57,15 @@ Někteří výrobci ultrazvukových snímačů a defektoskopů, jako například
 Velkým výrobcem, 
 který je kromě diagnostiky materiálů dříve zmíněnými metodami (ultrazvukové
 testování, testování vířivými proudy, a další) zaměřen i~na~diagnostiku 
-metodou AE,
- je americká MISTRAS group (patří k nim Physical Acoustic). 
- Konkuruje jim menší německá firma, která vyrábí rovněž kvalitní a~uznávané
+metodou AE, 
+je americká MISTRAS group (patří k nim Physical Acoustic). 
+Konkuruje jim menší německá firma, která vyrábí rovněž kvalitní a~uznávané
   systémy, snímače a~předzesilovače pro~testování metodou AE. 
-  je Vallen Systeme. Tito dva nejvýznamnější výrobci kromě toho ladí a~vyvíjejí software 
-  pro~lokalizaci zdrojů AE pomocí algoritmů strojového učení.
+  je Vallen Systeme. Tito dva nejvýznamnější výrobci kromě toho ladí 
+  a~vyvíjejí software k automatické a efektivnější 
+  klasifikaci dat pomocí strojového učení.
 
+  
 % MISTRAS group je provozovatelem všech výše zmíněných metod \ac{DT} – věnují se jak ultrazvukovému testování, testování magnetickými částicemi, i zkoušení materiálů vířivými proudy. Pro testování metodou \ac{AE} provozují vlastní technologickou divizi Physical acoustic. 
 
 
