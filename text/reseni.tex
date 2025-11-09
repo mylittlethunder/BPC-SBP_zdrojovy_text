@@ -24,7 +24,8 @@ Oproti ultrazvukovému testování je velkou výhodou zkoušení AE možnost nep
 
 Limit metody AE spočívá hlavně v interpretaci dat u komplikovanějších struktur~–~analytické vzorce pro lokalizace zdrojů AE jsou známé jen pro tenkou, izotropní desku \cite{Chlada2009}. Navíc, instalace senzorů na všech požadovaných místech je mnohdy nesnadná. Může tomu tak být z důvodu nepřístupnosti do určitých lokalit konstrukcí (např. některé koutové sváry). Umístění snímačů dokáže mimo to nežádoucím způsobem ovlivnit dynamické vlastnosti konstrukce. %U složitějších struktur probíhá snaha uplatnit umělou neuronovou síť ke zpracování dat.
 \section{Postupy použití metody AE u složitějších struktur}%Kompenzace limitů metody AE} 
-Z pohledu systémové teorie můžeme testování materiálů metodou AE formulovat dvěma základními způsoby; při~\textbf{dopředné úloze} je stanovována odezva dle známých vstupů (sil nárazů). Nelze-li snadno získat hodnotu vstupu, je formulován problém zpětný – ze~změřené odezvy se dopočítávají hodnoty vstupů. Tento způsob řešení nazveme \textbf{inverzním algoritmem}.
+Testování materiálů 
+metodou AE můžeme formulovat dvěma základními způsoby; při~\textbf{dopředné úloze} je stanovována odezva dle známých vstupů (sil nárazů). Nelze-li snadno získat hodnotu vstupu, je formulován problém zpětný – ze~změřené odezvy se dopočítávají hodnoty vstupů. Tento způsob řešení nazveme \textbf{inverzním algoritmem}.
 
 Ve vědeckých studiích bývají tyto inverzní algoritmy k~rekonstrukci působení vnějších sil hojně využívány. Podle implementace již zmíněné inverzní algoritmy jde rozdělit na~techniky založené na~modelech a~techniky založené na~strojovém/hlubokém učení.
 \subsection{Techniky založené na modelech}
@@ -67,7 +68,14 @@ daty.
 Funkcí, která představuje míru podobnosti mezi vlastní 
 změřenou vlnou a vzorem, je poměr vzdáleností. 
 Čím nižší je poměr vzdáleností, tím lépe odpovídá 
-aktuální průběh přidělené třídě. Výsledky těchto klasifikátorů mohou být pro každý dílčí detekovaný zásah v programu VisualAE (program od společnosti Vallen pro analýzu dat AE. Zpracovává jak dvojrozměrná, tak trojrozměrná data, počítá hodnoty nejistot měření, atd.) spojeny s odpovídajícími parametry. Klasifikované výsledky lze tak i statisticky zpracovat.
+aktuální průběh přidělené třídě. 
+Výsledky těchto klasifikátorů mohou být pro~každý dílčí 
+detekovaný zásah v~programu VisualAE
+(program od společnosti Vallen pro analýzu dat AE. 
+Zpracovává jak dvojrozměrná, tak trojrozměrná data, 
+počítá hodnoty nejistot měření, atd.) 
+spojeny s odpovídajícími parametry. 
+Klasifikované výsledky lze tak i statisticky zpracovat.
 
 Výše zmíněný klasifikátor (čili kritérium, kterým jsou vlnové průběhy přidělovány do tříd) lze chápat jako výsledek procesu učení. V rámci procesu učení je brán určitý počet datových (učících) sad. Byla-li data vybrána uživatelem, hovoří se o \textbf{řízeném učení} (supervised learning). Pokud byly tyto sady vybrány automaticky nějakým výkonným algoritmem shlukování (tzv. clustering), jde potom o učení \textbf{neřízené} (unsupervised learning).
 
