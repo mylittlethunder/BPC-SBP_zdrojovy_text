@@ -328,7 +328,11 @@ adc\dots periferní hodnota AD převodníku získaná z binárního souboru [-]\
 Gain \dots vlastní zesílení měřicí ústředny (udáno 34 dB) [dB]\\
 $2^{16} \dots$ počet kvantizačních úrovní 16bitového AD převodníku (odečtení jedničky zanedbáno) [-]\\
 
-
+Výpočet parametrů RMS, ASL a výkonu signálu byl proveden pomocí 
+skriptu v Pythonu. Z textového souboru byly vyčteny veškeré informace 
+o~ukládání surových dat – ústředna Dakel ukládá hodnoty AD převodu jako 
+2bytový signed integer s endianitou "little endian" – 
+nejprve se do paměti uloží least significant byte (LSB), MSB jako druhý.
 
 
 
