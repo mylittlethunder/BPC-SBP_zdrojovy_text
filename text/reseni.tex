@@ -291,8 +291,31 @@ Pro každou zmíněnou vzdálenost od snímače bylo provedeno několik
 tzv.~pentestů. Po dokončení každé sady dat (tj. dat určených pro~jednu 
 ze~vzdáleností) byl proveden export. Program ZEDO každý průběh exportoval tak,
 že vygeneroval binární soubor se surovými hodnotami AD převodu (*.bin),
-textový soubor s informacemi o získaných vzorcích a gnuplot soubor (*.plt) pro~snadné 
-zobrazení mezi~různými operačními systémy.
+textový soubor s informacemi o získaných vzorcích a gnuplot soubor (*.plt) pro~snadné
+zobrazení grafů mezi~různými operačními systémy. Vypočtené hodnoty \textbf{RMS}, 
+\textbf{ASL}, a \textbf{výkon signálu} byly vloženy do textového souboru, jehož názvu bylo
+součástí označení "ae-parameters". Pro tyto parametry platí dle dokumentace \cite{zedo}
+následující vztahy:
+
+\begin{equation}
+    \label{eq:RMS}
+    U_{RMS} = \sqrt{\frac{1}{N}\cdot \sum_{i=1}^{N} u_i^2}
+\end{equation}
+kde:\\
+$U_{RMS}\dots$ napětí efektivní hodnoty signálu (z angl. root mean square) [V]\\
+N\dots počet diskrétních vzorků napětí (parametr každého z průběhů) [-]\\
+$u_i\dots$ hodnota napětí pro daný vzorek i (spočtená z periferní hodnoty dle vztahu -- dodat VZTAH) [V]
+\begin{equation}
+    \label{eq:ASL}
+    U_{ASL} = \frac{1}{N}\cdot \sum_{i=1}^{N} |u_i|
+\end{equation}
+kde:\\
+$U_{ASL}\dots $napětí střední hodnoty signálu (z angl. average signal level) [V]\\
+
+\begin{equation}
+    P = \frac{1}{N}\cdot \sum_{i=1}^{N} u_i^2
+\end{equation}
+Snahou bylo vybrat jeden nejlepší průběh z~každé sady, pro~který by 
 
 
 
