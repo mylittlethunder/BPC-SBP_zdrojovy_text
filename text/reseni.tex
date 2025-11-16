@@ -304,7 +304,7 @@ následující vztahy:
 kde:\\
 $U_{RMS}\dots$ napětí efektivní hodnoty signálu (z angl. root mean square) [V]\\
 N\dots počet diskrétních vzorků napětí (parametr každého z průběhů) [-]\\
-$u_i\dots$ hodnota napětí pro daný vzorek i (spočtená z periferní hodnoty dle vztahu -- dodat VZTAH) [V]
+$u_i\dots$ hodnota napětí pro daný vzorek i (spočtená z periferní hodnoty AD převodníku) [V]
 \begin{equation}
     \label{eq:ASL}
     U_{ASL} = \frac{1}{N}\cdot \sum_{i=1}^{N} |u_i|
@@ -313,9 +313,20 @@ kde:\\
 $U_{ASL}\dots $napětí střední hodnoty signálu (z angl. average signal level) [V]\\
 
 \begin{equation}
+    \label{eq:pow}
     P = \frac{1}{N}\cdot \sum_{i=1}^{N} u_i^2
 \end{equation}
-Snahou bylo vybrat jeden nejlepší průběh z~každé sady, pro~který by 
+Ve vztazích \ref{eq:RMS}, \ref{eq:ASL} a \ref{eq:pow} figurují
+hodnoty napětí. Tyto hodnoty napětí se dopočítávají ze surové hodnoty
+AD převodu dle vztahu (je kromě toho uváděn v textovém souboru každého průběhu):
+\begin{equation}
+    \label{eq:urceni_ui_z_adc}
+    u_i = 10 \cdot \frac{adc}{2^{16}}\cdot 10^{-1 \cdot \frac{Gain}{20}}\hspace{10pt}[V]
+\end{equation}
+kde:\\
+adc\dots periferní hodnota AD převodníku získaná z binárního souboru [-]\\
+Gain \dots vlastní zesílení měřicí ústředny (udáno 34 dB) [dB]\\
+$2^{16} \dots$ počet kvantizačních úrovní 16bitového AD převodníku (odečtení jedničky zanedbáno) [-]\\
 
 
 
